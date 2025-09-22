@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/edtSobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Sobrenome" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Data de Nascimento"
+            android:inputType="date" />
+
+        <Spinner
+            android:id="@+id/spnEsporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroun_gray"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue"
+            android:text="Enviar"
+            android:textColor="#F9F9F9" />
+
+        <Button
+            android:id="@+id/btnVoltarLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue"
+            android:text="Voltar para Login"
+            android:textColor="#F9F9F9" />
+
+        <Button
+            android:id="@+id/btnVerRespostas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue"
+            android:text="Ver respostas 🔒"
+            android:textColor="#F9F9F9" />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_blue"
+            android:text="Finalizar Pesquisa"
+            android:textColor="#F9F9F9" />
+
+
+        <TextView
+            android:id="@+id/txtEstatisticas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Estatísticas aparecerão aqui..." />
+    </LinearLayout>
+</ScrollView>

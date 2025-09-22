@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sportproject">
+
+    <application
+        android:allowBackup="true"
+        android:label="Registro Esportivo"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Tela inicial -->
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Outras telas -->
+        <activity android:name=".PesquisaActivity"/>
+        <activity android:name=".FinalizarActivity"/>
+        <activity android:name=".SobreActivity"/>
+    </application>
+
+</manifest>

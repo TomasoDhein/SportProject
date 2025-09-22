@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Resultado final da pesquisa -->
+        <TextView
+            android:id="@+id/txtResultadoFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:text="Resultado aparecerá aqui..."
+            android:textSize="16sp" />
+
+        <!-- Botão para voltar à pesquisa -->
+        <Button
+            android:id="@+id/btnVoltarPesquisa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue"
+            android:text="VOLTAR PARA PESQUISA"
+            android:textColor="#F9F9F9" />
+    </LinearLayout>
+</ScrollView>

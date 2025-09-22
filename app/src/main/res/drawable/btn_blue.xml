@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado pressionado -->
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <!-- sombra mais esfumada (camada larga e clara) -->
+            <item android:top="8dp" android:left="8dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/> <!-- preto 10% -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+
+            <!-- sombra mais próxima (camada menor e mais escura) -->
+            <item android:top="4dp" android:left="4dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#26000000"/> <!-- preto 15% -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+
+            <!-- botão pressionado -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#303C83"/> <!-- laranja forte -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Estado normal -->
+    <item>
+        <layer-list>
+
+            <!-- sombra esfumada (camada larga e clara) -->
+            <item android:top="8dp" android:left="8dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/> <!-- preto 10% -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+
+            <!-- sombra próxima (camada menor e mais escura) -->
+            <item android:top="4dp" android:left="4dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#26000000"/> <!-- preto 15% -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+
+            <!-- botão normal -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#3F51B5"/> <!-- laranja pastel -->
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
