@@ -1,5 +1,9 @@
-App desenvolvido por Tomaso Dhein em JAVA + XML, 
+## App desenvolvido em JAVA + XML
 
-Login -> Usuário: admin // Senha: 123,
+<img align="center" alt="Tomaso-Java" height="90" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/>
 
-Ver Respostas -> Senha: admin123.
+Desenvolvido por: Tomaso Dhein
+
+Login -> Usuário: admin // Senha: 123
+
+Ver Respostas -> Senha: admin123
