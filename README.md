@@ -1,9 +1,9 @@
-## App desenvolvido em JAVA + XML
+## App developed in JAVA + XML
 
 <img align="center" alt="Tomaso-Java" height="90" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/>
 
-Desenvolvido por: Tomaso Dhein
+Developed by: Tomaso Dhein
 
-Login -> Usuário: admin // Senha: 123
+Login -> Username: admin // Password: 123
 
-Ver Respostas -> Senha: admin123
+View Responses -> Password: admin123
